@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    font-size: 14px;
+    line-height: 1.2rem;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.container{
+    border: solid  1px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70rem;
+    height: 40rem;
+    .shoes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 40rem;
+        .shoe-photo{
+            width: 35rem;
+            height: 22rem;
+        }
+
+        .shoe-color{
+            display: flex;
+            .div{
+                width: 2rem;
+                height: 2rem;
+                border-radius: 50%;
+                border: solid 1px gray;
+                margin: 2rem;
+                cursor: pointer;
+            }
+            .blue{
+                background-color: blue;
+            }
+            .red{
+                background-color: red;
+            }
+            .green{
+                background-color: green;
+            }
+        }
+    }
+
+
+    .body-section{
+        height: 40rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            text-align: center;
+            margin-top: 5rem;
+        }
+
+        .d-grid{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            margin-top: 3rem;
+            .shoebody{
+                width: 4rem;
+                height: 2rem;
+                border-radius: 5px;
+                border: solid 1px gray;
+                margin: 2rem;
+                padding: 0.4rem 0 0 1.2rem ;
+                cursor: pointer;
+                transition: all 1s;
+                &:hover{
+                    background-color: black;
+                    color: #fff;
+                }
+            }
+        }
+
+        .price-section{
+            margin-top: 4rem;
+            p{
+                text-align: end;
+            }
+        }
+    }
+
+    .button-section{
+        margin-top: 5rem;
+
+        button{
+            width: 15rem;
+            height: 3rem;
+            background-color: rgb(24, 90, 233);
+            border: 0px;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            transition: all 1s;
+            &:hover{
+                background-color: blue;
+            }
+        }
+    }
+}

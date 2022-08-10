@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+  font-size: 14px;
+  line-height: 1.2rem;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.container {
+  border: solid  1px black;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70rem;
+  height: 40rem;
+}
+
+.container .shoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  height: 40rem;
+}
+
+.container .shoes .shoe-photo {
+  width: 35rem;
+  height: 22rem;
+}
+
+.container .shoes .shoe-color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .shoes .shoe-color .div {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: solid 1px gray;
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.container .shoes .shoe-color .blue {
+  background-color: blue;
+}
+
+.container .shoes .shoe-color .red {
+  background-color: red;
+}
+
+.container .shoes .shoe-color .green {
+  background-color: green;
+}
+
+.container .body-section {
+  height: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .body-section h1 {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.container .body-section .d-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  margin-top: 3rem;
+}
+
+.container .body-section .d-grid .shoebody {
+  width: 4rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: solid 1px gray;
+  margin: 2rem;
+  padding: 0.4rem 0 0 1.2rem;
+  cursor: pointer;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.container .body-section .d-grid .shoebody:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.container .body-section .price-section {
+  margin-top: 4rem;
+}
+
+.container .body-section .price-section p {
+  text-align: end;
+}
+
+.container .button-section {
+  margin-top: 5rem;
+}
+
+.container .button-section button {
+  width: 15rem;
+  height: 3rem;
+  background-color: #185ae9;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.container .button-section button:hover {
+  background-color: blue;
+}
+/*# sourceMappingURL=style.css.map */
